@@ -1,0 +1,72 @@
+[
+    {
+        "_id": "bug101",
+        "title": "Save button not working",
+        "description": "Nothing happens when clicking Save",
+        "severity": 3,
+        "createdAt": 1761123600000
+    },
+    {
+        "_id": "bug102",
+        "title": "Wrong password message",
+        "description": "Error message appears even with the correct password",
+        "severity": 2,
+        "createdAt": 1761210000000
+    },
+    {
+        "_id": "bug103",
+        "title": "Cannot upload image",
+        "description": "Image upload gets stuck",
+        "severity": 4,
+        "createdAt": 1761382800000
+    },
+    {
+        "_id": "bug104",
+        "title": "Missing button",
+        "description": "Edit button is missing on mobile",
+        "severity": 1,
+        "createdAt": 1761469200000
+    },
+    {
+        "_id": "bug105",
+        "title": "Page not loading",
+        "description": "Blank screen after refreshing",
+        "severity": 5,
+        "createdAt": 1761555600000
+    },
+    {
+        "_id": "bug106",
+        "title": "Search not working",
+        "description": "Search returns no results",
+        "severity": 3,
+        "createdAt": 1761728400000
+    },
+    {
+        "_id": "bug107",
+        "title": "Wrong item deleted",
+        "description": "Delete button removes the wrong item",
+        "severity": 5,
+        "createdAt": 1761814800000
+    },
+    {
+        "_id": "bug108",
+        "title": "Text is cut off",
+        "description": "Long titles are not fully displayed",
+        "severity": 1,
+        "createdAt": 1761901200000
+    },
+    {
+        "_id": "bug109",
+        "title": "Cannot change username",
+        "description": "New username is not saved",
+        "severity": 2,
+        "createdAt": 1762074000000
+    },
+    {
+        "_id": "bug110",
+        "title": "Filter not resetting",
+        "description": "Clear button does not reset the filter",
+        "severity": 2,
+        "createdAt": 1762160400000
+    }
+]
