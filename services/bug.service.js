@@ -6,7 +6,8 @@ const bugs = utilService.readJsonFile('data/bug.json')
 
 export const BugService = {
     query,
-    save
+    save,
+    getById
 }
 
 function query() {
@@ -22,7 +23,14 @@ function save(bugToSave) {
         bugToSave.createdAt = Date.now()
         bugs.push(bugToSave)
     }
-   return _saveBugsToFile() .then(() => bugToSave)
+    return _saveBugsToFile().then(() => bugToSave)
+}
+
+
+function getById(bugId) {
+    const bug = bugs.find(bug => bug._id === bugId)
+    if (!bug) return Promise.reject('Cannot find bug - ' + bugId)
+    return Promise.resolve(bug)
 }
 
 function _saveBugsToFile() {

@@ -28,4 +28,24 @@ app.get('/api/bug/save', (req, res) => {
 
         })
 })
+
+
+
+app.get('/api/bug/:bugId', (req, res) => {
+    const { bugId } = req.params
+    BugService.getById(bugId)
+        .then(bug => res.send(bug))
+        .catch(err => {
+            loggerService.error('Cannot get bug', err)
+            res.status(400).send('Cannot get bug')
+        })
+})
+
+
+app.get('/api/bug/:bugId/remove', (req, res) => {
+
+})
+
+
+
 app.listen(3030, () => loggerService.info('Server ready at port 3030'))
