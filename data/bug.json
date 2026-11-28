@@ -68,5 +68,12 @@
         "description": "Clear button does not reset the filter",
         "severity": 2,
         "createdAt": 1762160400000
+    },
+    {
+        "_id": "QnnKg",
+        "title": "TestBug",
+        "description": "Testing",
+        "severity": 3,
+        "createdAt": 1795848987711
     }
 ]
