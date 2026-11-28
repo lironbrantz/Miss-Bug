@@ -3,7 +3,7 @@ import { BugService } from './services/bug.service.js'
 import { loggerService } from './services/logger.service.js'
 
 const app = express()
-
+app.use(express.static('public'))
 app.get('/api/bug', (req, res) => {
     BugService.query()
         .then(bugs => res.send(bugs))
