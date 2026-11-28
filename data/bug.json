@@ -63,13 +63,6 @@
         "createdAt": 1762074000000
     },
     {
-        "_id": "bug110",
-        "title": "Filter not resetting",
-        "description": "Clear button does not reset the filter",
-        "severity": 2,
-        "createdAt": 1762160400000
-    },
-    {
         "_id": "QnnKg",
         "title": "TestBug",
         "description": "Testing",
